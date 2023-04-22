@@ -1,4 +1,4 @@
-defmodule Supu.Identity.Domain.Account do
+defmodule Supu.Identity.Users do
   use Ecto.Schema
   import Ecto.Changeset
 
