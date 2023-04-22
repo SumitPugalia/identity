@@ -8,3 +8,4 @@ config :identity, Identity.Test.Repo,
 
 config :identity,
   ecto_repos: [Identity.Test.Repo]
+  use_repo: Identity.Test.Repo
