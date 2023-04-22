@@ -7,5 +7,5 @@ config :identity, Identity.Test.Repo,
   hostname: "localhost"
 
 config :identity,
-  ecto_repos: [Identity.Test.Repo]
+  ecto_repos: [Identity.Test.Repo],
   use_repo: Identity.Test.Repo
